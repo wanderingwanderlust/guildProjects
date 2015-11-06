@@ -1,0 +1,14 @@
+.text-align{
+    text-align: center;
+}
+
+#resize{
+    height:400px;
+    width:400px;
+    position: static;
+}
+
+body{
+    
+    background-color:lightgrey;
+}

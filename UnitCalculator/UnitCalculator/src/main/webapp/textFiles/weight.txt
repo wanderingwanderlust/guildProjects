@@ -1,0 +1,2 @@
+<option value="pounds">Pounds</option>
+<option value="kilo">Kilograms</option>

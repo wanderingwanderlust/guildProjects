@@ -1,0 +1,12 @@
+Vending Machine User Stories
+
+
+1.  User is presented with list of items and related cost or option to exit.  User is prompted to enter money. Prompt user to make item choice.  
+
+2.  If user does not enter enough money advise insufficent funds.  User is prompted to either add more money or to be returned to menu.
+
+3.  If user does not enter more money. User can make a different item selection or exit with change being returned.
+
+4.  If user does enter more money.  Item is deducted from inventory.  Cost is deducted from the money.  Change is returned to the user.
+
+5.  Machine saves inventory and exits.  

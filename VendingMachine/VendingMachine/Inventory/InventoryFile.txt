@@ -1,0 +1,24 @@
+D1::Cheetos::1.5::10
+C1::Classic Potato Chips::1.25::0
+D2::Pretzels::1.25::10
+B1::BabyRuth::1.25::10
+C2::Salt & Vinegar Chips::1.3::8
+D3::Chex-Mix::1.25::10
+A1::Snikers::1.0::10
+B2::M&M's::1.0::10
+C3::BBQ Chips::1.3::10
+D4::SunChips::1.4::10
+A2::MilkyWay::1.0::10
+B3::PayDay::0.95::10
+C4::Sour Cream & Onion::1.3::10
+D5::Cheez-It::1.35::10
+A3::Butterfingers::1.25::10
+B4::Hershey's::1.0::10
+C5::Doritos::1.5::10
+D6::Gold Fish::1.3::10
+A4::KitKat::0.95::10
+B5::Crunch::0.85::9
+C6::Doritos Cool Ranch::1.5::10
+A5::Reese's Cups::1.0::10
+B6::3 Musketeers::0.95::10
+A6::Twix::1.0::8

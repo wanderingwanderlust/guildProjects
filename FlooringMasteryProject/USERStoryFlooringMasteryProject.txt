@@ -1,0 +1,66 @@
+USER Story -- Flooring Mastery Project 
+
+
+
+printMenu()
+this will present the 6 options the user has to choose from. 1) Display, 2) Add, 3) Edit, 4) Remove, 5) Save Work, and 6) Quit.
+
+
+
+displayOrders():
+ user will be asked to enter a date, and all orders at that time will be presented. If none exist, error message will be displayed & Returned to main menu
+
+addOrder():
+ask the user for each piece of order data. 
+
+Order data consists of User entries for name, state, productType, area. 
+
+Order data provided by SWC will be :
+ order#(assigned by us, and must be the next order up), date, taxRate(will be pulled by us once they give us the state), costPerSqFoot, laborCostPerSqFoot, materialCost, laborCost, tax, and total. 
+
+after data has been entered we will display all order information to the user so they can see what they have entered and what we have calculated for them. 
+
+prompt user to confirm add. (Yes/No)
+
+
+display : Thank you for adding an order with us. 
+
+
+
+editOrder();
+user will be prompted to enter a date. as well as an order number
+
+if order doesnt exist reprompt to enter a date and order number or ability to return to main menu. 
+
+if order exists,  for that date && number we will ask the user for each piece of data and display current information. If user enters new information we will replace with the old info provided. if they hit enter without typing anything it should not change the previously entered information. 
+
+after data has been edited we will display the edited informationa and calculate and display new costs. orderNumber and date will stay the same. 
+
+
+removeOrder();
+prompt user to enter date and order number.
+
+if order doesnt exist reprompt to enter a date and order number or ability to return to main menu. 
+
+if order exists, for that date && number we will display all order information. Prompt user to confirm removal. Order removed if confirmed. 
+
+
+
+
+
+saveOrder() 
+Any adds, edits, or removals will be saved to file once the user selects save current session.
+this will save current order information to be written to a file. Orders_MMDDYYYY.txt
+Alert user that the information has been saved.
+
+
+
+quit()
+First we will check to see if user has saved current session, if session hasn't been saved we will prompt user to either save session or continue without saving. Then we will thank the user for using our product and the program will shut down. 
+
+
+
+
+
+
+

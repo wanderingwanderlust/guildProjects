@@ -1,0 +1,11 @@
+#news {
+    height: 45%;
+    padding: 0px;
+}
+
+#picture{
+    width: 100%;
+    height: 50%;
+    padding: 0px;
+    float: left;
+}

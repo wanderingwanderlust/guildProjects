@@ -1,0 +1,479 @@
+/* Web Fonts -------------------- */
+
+@font-face {
+    font-family: 'Abolition Regular';
+    src: url('../fonts/abolition-regular-webfont.eot');
+    src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/abolition-regular-webfont.woff') format('woff'),
+        url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+/* Base Styles -------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #878787;
+    margin: 0;
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 3.3125em;
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 0 0 .5em;
+}
+
+h3 {
+    font-size: 1.25em;
+    color: #48525c;
+    line-height: 1.2;
+    margin-bottom: 1.7em;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+ul,
+ol {
+    margin: 30px 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+    color: rgb(255, 169, 73);
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: lightcoral;
+}
+
+.tnav .navbar { height: 28px; }
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 28px;
+}
+.navbar {min-height:28px !important;}
+
+#dashboardMargin{
+    margin-top: 5%;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+    padding-top: 170px;
+    height: 850px;
+    background: linear-gradient(#000000, transparent 70%),
+        linear-gradient(0deg, #fff, transparent),
+        #ffa949 url('../img/moon.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.main-about {
+    padding-top: 25%;
+    height: 85%;
+    background: #ffa949 url('../img/aboutus.jpg') no-repeat center;
+    background-size: cover;
+    color: transparent;
+}
+
+.about-background{
+    
+}
+
+.main-heading {  
+    font-size: 5.625rem;
+    color: rgba(63, 127, 191, 1);
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.3; 
+    text-shadow: 0 2px 2px rgba(0,0,0,.8);
+    margin: 12px 0 0;
+    padding-left:45px;
+}
+
+.home-heading {
+    font-size: 5.625rem;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.3;
+    text-shadow: 0 1px 1px rgba(0,0,0,.8);
+    margin: 12px 0 0;
+}
+
+
+
+
+.main-title {
+    color: black;
+    font-family:Times-new-roman; 
+    font-size: 1.625rem;
+    letter-spacing: .045em;
+    font-weight: 200;
+    border-bottom: 2px solid;
+    padding-bottom: 3.5px;
+    padding-left:5px;
+}
+
+.home-title{
+    color: whitesmoke;
+    font-family:Times-new-roman;
+    font-size: 1.625rem;
+    letter-spacing: .045em;
+    font-weight: 200;
+    border-bottom: 2px solid;
+    padding-bottom: 3.5px;
+    padding-left:5px;
+
+}
+
+.intro {
+    font-size: 1.25em;
+    line-height: 1.6; 
+    color: initial;
+}
+
+.primary-content,
+.main-header,
+.main-about,
+.main-footer {
+    text-align: center;
+}
+
+.primary-content {
+    padding-top: 25px;
+    padding-bottom: 95px;
+}
+
+.secondary-content {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #dfe2e6;
+}
+
+.callout {
+    font-size: 1.25em;
+    border-bottom: 3px solid;
+    padding: 0 9px 3px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.main-footer {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 3px solid #ffa949;
+}
+
+.t-border {
+    border-top: 2px solid #dfe2e6;
+}
+
+/* Layout Styles ------------------ */
+
+
+.secondary-content {
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 960px;
+}
+
+#blogsforfun {
+    //color: white;
+    text-align: left;
+    //padding: 18% 24%;
+    border-top: solid #2E9BBF;
+    margin: 0 60px;
+    background: #434a52 url('../img/bear.jpg') no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
+    border-radius: 30px;
+    font-size: 10px;
+    
+}
+
+.arrow {
+    width: 50px;
+    margin-top: 150px;
+}
+
+/* Floated Columns ------------------ */
+
+.resorts,
+.tips {
+    width: 46.5%;
+}
+
+.tips {
+    float: left;
+}
+
+.resorts {
+    float: right;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:5px !important; padding-bottom:0 !important;
+    height: 30px;
+
+}
+.navbar {min-height:30px !important;}
+
+.main-nav{
+    text-align: center;
+
+}
+
+
+/* Media Queries -------------------- */
+
+@media (max-width: 1024px) {
+    .primary-content,
+    .secondary-content {
+        width: 90%;
+    }
+    .wildlife {
+        padding: 10% 12%;
+        margin: 50px 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .primary-content,
+    .secondary-content {
+        width: 100%;
+        padding: 20px;
+        border-top: none;
+    }
+    .main-header {
+
+
+        max-height: 380px;
+        padding: 50px 25px 0px;
+
+        max-height: 380px;
+        padding: 50px 25px 0;
+
+    }
+    .main-about {
+        max-height: 380px;
+        padding:50px 25px 0;
+    }
+    .main-title {
+        font-size: 1.3rem;
+        border: none;
+    }
+    .main-heading {
+        font-size: 5rem;
+        line-height: 1.1;
+    }
+    .arrow {
+        display: none;
+    }
+    .intro {
+        font-size: 1rem;
+    }
+    .resorts,
+    .tips {
+        float: none;
+        width: 100%;
+    }
+    .main-footer {
+        padding: 20px 0;
+    }
+
+    
+    .form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+}
+/* Dashboard classes and ids */
+
+#basicstats{
+    margin-top: 2%;
+}
+
+
+/* Comments Approbal CSS BEGIN*/
+
+
+.comments .media-heading {
+    margin-top: 25px;
+}
+
+.comments .comment-info {
+    margin-left: 6px;
+    margin-top: 21px;
+}
+
+.comments .comment-info .btn {
+    font-size: 0.8em;
+}
+
+.comments .comment-info .fa {
+    line-height: 10px;
+}
+
+.comments .media-body p {
+    position: relative;
+    background: #F7F7F7;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.comments .media-body p::before {
+    background-color: #F7F7F7;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    content: "\00a0";
+    display: block;
+    height: 30px;
+    left: 20px;
+    position: absolute;
+    top: -13.9px;
+    transform: rotate( 135deg );
+    width:  30px;
+}
+
+.white {
+    color: #fff;
+}
+/*  Comments Approval Page  Comments    CSS End   */
+
+
+
+
+/* sign up page CSS   BEGIN  */
+
+#signup .input-group {
+    margin-bottom: 1em;
+}
+
+#signup .input-group.nom{
+    margin-bottom: 0;
+}
+
+/* sign up page CSS  End  */
+
+
+
+/*category form*/
+#catText{
+    text-align: right;
+}
